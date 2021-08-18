@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+
+import "./App.css";
+import { Switch, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Bootcamp from "./components/Bootcamp";
+import ImmersiveJs from "./components/ImmersiveJs";
+import FlexJs from "./components/FlexJs";
+import DataScience from "./components/DataScience";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar brand={"void8"} />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/bootcamp" component={Bootcamp} />
+        <Route exact path="/immersivejs" component={ImmersiveJs} />
+        <Route exact path="/flexjs" component={FlexJs} />
+        <Route exact path="/datascience" component={DataScience} />
+      </Switch>
+      <Footer />
+    </>
   );
 }
 
