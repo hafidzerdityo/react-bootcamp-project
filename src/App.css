@@ -120,3 +120,8 @@ ul {
   text-decoration: underline;
   color: #0275d8;
 }
+
+.my-btn {
+  font-size: 15px;
+  margin-bottom: 30px;
+}

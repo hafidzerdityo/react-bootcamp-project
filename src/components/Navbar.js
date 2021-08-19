@@ -53,19 +53,37 @@ const Navbar = ({ brand }) => {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link active" to="/">
-                  Proffesional Development
+              <li className="nav-item dropdown">
+                <Link
+                  className="nav-link dropdown-toggle"
+                  id="coursesDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  to="/courses"
+                >
+                  Courses
                 </Link>
+
+                <ul
+                  class="dropdown-menu dropdown-menu-dark"
+                  aria-labelledby="coursesDropdown"
+                >
+                  <li>
+                    <Link class="dropdown-item" to="/x">
+                      React & React Native
+                    </Link>
+                  </li>
+                  <li>
+                    <Link class="dropdown-item" to="/x">
+                      Python for Data Science
+                    </Link>
+                  </li>
+                </ul>
               </li>
+
               <li className="nav-item">
                 <Link className="nav-link active" to="/">
                   About
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link active" to="/">
-                  Corporate
                 </Link>
               </li>
             </ul>

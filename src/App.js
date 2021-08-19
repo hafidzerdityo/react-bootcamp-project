@@ -10,6 +10,7 @@ import ImmersiveJs from "./components/ImmersiveJs";
 import FlexJs from "./components/FlexJs";
 import DataScience from "./components/DataScience";
 import Footer from "./components/Footer";
+import Default from "./components/Default";
 
 function App() {
   return (
@@ -17,10 +18,12 @@ function App() {
       <Navbar brand={"void8"} />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/bootcamp" component={Bootcamp} />
-        <Route exact path="/immersivejs" component={ImmersiveJs} />
-        <Route exact path="/flexjs" component={FlexJs} />
-        <Route exact path="/datascience" component={DataScience} />
+        <Route path="/bootcamp" component={Bootcamp} />
+        <Route path="/immersivejs" component={ImmersiveJs} />
+        <Route path="/flexjs" component={FlexJs} />
+        <Route path="/datascience" component={DataScience} />
+        <Route path="/datascience" component={DataScience} />
+        <Route component={Default} />
       </Switch>
       <Footer />
     </>
