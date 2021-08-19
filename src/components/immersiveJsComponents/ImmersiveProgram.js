@@ -62,7 +62,7 @@ const ImmersiveProgram = () => {
                 className="col-md-3 "
                 style={{ borderLeft: "2px solid green" }}
               >
-                <i className="bi-people-check" style={{ fontSize: "20px" }}></i>
+                <i className="bi-person-check" style={{ fontSize: "20px" }}></i>
                 <h5 style={{ fontWeight: "700", marginTop: "10px" }}>
                   Instruktur Profesional
                 </h5>
