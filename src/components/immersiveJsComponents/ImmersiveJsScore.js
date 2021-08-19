@@ -2,7 +2,7 @@ import React from "react";
 
 const ImmersiveJsScore = () => {
   return (
-    <section className="bg-success text-light p-5 my-5">
+    <section className="score text-light p-5 my-5">
       <div className="container ">
         <div className="row ">
           <div className="col">

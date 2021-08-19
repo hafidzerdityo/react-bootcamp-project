@@ -3,6 +3,7 @@ import React from "react";
 import ImmersiveShowcase from "./immersiveJsComponents/ImmersiveShowcase";
 import ImmersiveJsScore from "./immersiveJsComponents/ImmersiveJsScore";
 import ImmersiveProgram from "./immersiveJsComponents/ImmersiveProgram";
+import Kurikulum from "./immersiveJsComponents/Kurikulum";
 
 const ImmersiveJs = () => {
   return (
@@ -10,6 +11,7 @@ const ImmersiveJs = () => {
       <ImmersiveShowcase />
       <ImmersiveJsScore />
       <ImmersiveProgram />
+      <Kurikulum />
     </>
   );
 };

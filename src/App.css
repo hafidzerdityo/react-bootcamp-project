@@ -54,6 +54,7 @@
   align-items: center;
   text-align: left;
   height: 50px;
+  margin-bottom: 30px;
 }
 
 .learning-type .card-control-1 h3 {
@@ -124,4 +125,23 @@ ul {
 .my-btn {
   font-size: 15px;
   margin-bottom: 30px;
+}
+
+.score {
+  background-color: #058c42;
+}
+
+.kurikulum {
+  background-color: #04471c;
+}
+
+.small-container {
+  max-width: 700px;
+  margin: 0 auto;
+  letter-spacing: 0.3px;
+  overflow: auto;
+}
+.medium-container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
