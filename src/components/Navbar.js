@@ -9,7 +9,7 @@ const Navbar = ({ brand }) => {
           <Link to="/" className="navbar-brand text-light text-capitalize">
             <h2>{brand}</h2>
           </Link>
-
+          <h1>bkabka</h1>
           <button
             class="navbar-toggler"
             type="button"
@@ -18,7 +18,6 @@ const Navbar = ({ brand }) => {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-
           <div className="collapse navbar-collapse" id="navTogg">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item dropdown">
