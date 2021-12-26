@@ -9,7 +9,6 @@ const Navbar = ({ brand }) => {
           <Link to="/" className="navbar-brand text-light text-capitalize">
             <h2>{brand}</h2>
           </Link>
-          <h1>bkabka</h1>
           <button
             class="navbar-toggler"
             type="button"
@@ -81,7 +80,7 @@ const Navbar = ({ brand }) => {
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link active" to="/">
+                <Link className="nav-link" to="/">
                   About
                 </Link>
               </li>
